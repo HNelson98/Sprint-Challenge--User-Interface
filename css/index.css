@@ -235,6 +235,9 @@ footer nav a {
     border-bottom:1px dashed black ;
 }
 
+.mid img{
+    margin-bottom: 3%;
+}
 button{
     border-radius: 10%;
     width: 33%;
@@ -250,4 +253,29 @@ button{
     justify-content: space-around;
     margin: 5%;
     width: 94%;
+}
+
+.letters{
+    transform: rotate(270deg);
+}
+.letter{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.contact-info h2{
+    font-size: 30px;
+}
+.contact-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: center;
+    text-align: center;
+    line-height:1.5;
+    font-size: 25px;
+}
+
+.contact-info p{
+    margin-top: 5%;
 }

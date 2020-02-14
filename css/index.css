@@ -74,11 +74,14 @@ p {
 header{
     display: flex;
     justify-content: space-around;
+    height: 5%;
+    margin: 2%
 }
 
 nav {
     display: flex;
     justify-content: space-around;
+    align-content: flex-end;
     width: 60%;
     align-items: center;
     margin: 2%;
@@ -202,8 +205,9 @@ footer nav a {
 
 .top{
     display: flex;
+    flex-direction: column;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
     text-align: left;
@@ -228,6 +232,7 @@ footer nav a {
 	height: 30%;
 	margin: 3%;
     padding: 2%;
+    border-bottom:1px dashed black ;
 }
 
 button{
@@ -237,4 +242,12 @@ button{
     background-color: floralwhite;
     border: 2px solid black;
     margin-top: 3%;
+}
+
+.end{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 5%;
+    width: 94%;
 }
